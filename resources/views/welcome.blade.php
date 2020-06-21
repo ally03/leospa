@@ -83,6 +83,73 @@
             </div>
         </div>
 
+        <!-- Procedures section start -->
+        <div class="container mx-auto  pt-20 px-12 ">
+            <div class="p-8">
+                <h1 class=" text-4xl text-center ">Popular Procedures.</h1>
+                <p class="text-center px-8 pt-8 "> To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+            </div>
+            <div class="flex flex-wrap -m-3 ">
+                <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 ">
+                    <div class="bg-white  overflow-hidden flex-1 flex flex-col border border-gray-300 ">
+                        <img class="p-4" src="/assets/1(1).jpg" alt="Sunset in the mountains">
+
+
+                        <div class="p-4 flex-1 flex flex-col">
+                            <h3 class="mb-4 text-2xl text-center">Massage Therapy</h3>
+                            <div class="mb-4 text-grey-darker text-sm flex-1">
+                                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                            </div>
+                            <div class="pt-8 text-center">
+                                <input class="shadow-lg pt-3 pb-3 w-1/2 text-white bg-black hover:bg-red-400 rounded-full cursor-pointer " type="submit" value="READ MORE">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 ">
+                    <div class="bg-white   overflow-hidden flex-1 flex flex-col border border-gray-300">
+                        <img class="p-4" src="/assets/1(1).jpg" alt="Sunset in the mountains">
+                        <div class="p-4 flex-1 flex flex-col">
+                            <h3 class="mb-4 text-2xl text-center">Beauty Care</h3>
+                            <div class="mb-4 text-grey-darker text-sm flex-1">
+                                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.
+
+                                </p>
+                            </div>
+                            <div class="pt-8 text-center">
+                                <input class="shadow-lg pt-3 pb-3 w-1/2 text-white bg-black hover:bg-red-400 rounded-full cursor-pointer " type="submit" value="READ MORE">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 ">
+                    <div class="bg-white  overflow-hidden flex-1 flex flex-col border border-gray-300">
+                        <img class="p-4" src="/assets/1(1).jpg" alt="Sunset in the mountains">
+                        <div class="p-4 flex-1 flex flex-col">
+                            <h3 class="mb-4 text-2xl text-center">Executive Reflexology</h3>
+                            <div class="mb-4 text-grey-darker text-sm flex-1">
+                                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                            </div>
+                            <div class="pt-8 text-center">
+                                <input class="shadow-lg pt-3 pb-3 w-1/2 text-white bg-black hover:bg-red-400 rounded-full cursor-pointer " type="submit" value="READ MORE">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Procedures section end -->
+
+
+
+
+
 
 
 </body>
