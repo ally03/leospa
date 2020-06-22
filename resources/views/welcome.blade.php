@@ -11,12 +11,25 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- <link href="/resources/sass/app.scss" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ mix('/css/app.css')}}">
+    <script src="{{asset('js/app.js')}}"></script>
 
+    <!-- <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#ddtype").change(function() {
+                alert("Handler for .change() called.");
+            });
+
+        });
+    </script> -->
 </head>
 
 
 <body>
+
 
     <div>
 
@@ -146,6 +159,116 @@
         </div>
         <!-- Procedures section end -->
 
+        <div class="bg-white font-sans leading-normal tracking-normal">
+
+            <div class="carousel relative shadow-2xl bg-white">
+                <div class="carousel-inner relative overflow-hidden w-full">
+                    <!--Slide 1-->
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    </div>
+                    <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                    <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                    <!--Slide 2-->
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    </div>
+                    <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                    <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                    <!--Slide 3-->
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
+                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    </div>
+                    <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
+                    <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
+
+                    <!-- Add additional indicators for each slide-->
+                    <ol class="carousel-indicators ">
+                        <li class="inline-block mr-3">
+                            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                        <li class="inline-block mr-3">
+                            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="container mx-auto  pt-20 px-12 ">
+            <div class="p-8">
+                <h1 class=" text-4xl text-center ">Experienced Team</h1>
+                <p class="text-center px-8 pt-8 "> To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+            </div>
+        </div>
+
+        <div class="p-24 flex flex-wrap items-center justify-center ">
+
+
+
+
+            <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-8">
+                <div class="">
+                    <img class="w-full" src="https://dummyimage.com/300x400/8a8a8a/525252.png">
+                </div>
+                <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
+                    <div class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Joseph Austin</div>
+                    <h1 class=" text-center py-2 px-3">$129</h1>
+
+
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-8">
+                <div class="">
+                    <img class="w-full" src="https://dummyimage.com/300x400/8a8a8a/525252.png">
+                </div>
+                <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
+                    <div class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</div>
+                    <div class="flex items-center justify-between py-2 px-3 bg-gray-400">
+                        <h1 class="text-gray-800 font-bold ">$129</h1>
+                        <button class=" bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-8">
+                <div class="">
+                    <img class="w-full" src="https://dummyimage.com/300x400/8a8a8a/525252.png">
+                </div>
+                <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg rounded-lg overflow-hidden">
+                    <div class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Nike Revolt</div>
+                    <div class="flex items-center justify-between py-2 px-3 bg-gray-400">
+                        <h1 class="text-gray-800 font-bold ">$129</h1>
+                        <button class=" bg-gray-800 text-xs text-white px-2 py-1 font-semibold rounded uppercase hover:bg-gray-700">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="memb-social">
+            <a href="http://demo.themeies.com/leospa/index.html#"><i class="ti-facebook"></i></a>
+            <a href="http://demo.themeies.com/leospa/index.html#"><i class="ti-twitter-alt"></i></a>
+            <a href="http://demo.themeies.com/leospa/index.html#"><i class="ti-google"></i></a>
+            <a href="http://demo.themeies.com/leospa/index.html#"><i class="ti-instagram"></i></a>
+        </div>
 
 
 
@@ -159,3 +282,12 @@
 <!-- <button class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
                     Cancel
                 </button> -->
+<!-- 
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500   rounded-lg max-w-xs shadow-lg">
+                <img class="w-full" src="https://dummyimage.com/400x500/8a8a8a/525252.png">
+            </div>
+
+            <div class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500   rounded-lg max-w-xs shadow-lg">
+                <img class="w-full" src="https://dummyimage.com/400x500/8a8a8a/525252.png">
+             <div class="relative pt-10 px-10 flex items-center justify-center ">
+                </div> -->
