@@ -5,6 +5,19 @@
 
 @import "tailwindcss/utilities";
 
+section.frontPage {
+    background: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 650px) {
+    section.frontPage {
+        background: none;
+    }
+}
+
 .carousel-open:checked + .carousel-item {
     position: static;
     opacity: 100;
@@ -50,4 +63,9 @@
     .carousel-bullet {
     color: #2b6cb0;
     /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.alid {
+    color: red;
+    // <script src="{{asset('js/app.js')}}"></script>
 }

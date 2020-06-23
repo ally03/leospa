@@ -17878,6 +17878,19 @@ video {
   transition-delay: 1000ms;
 }
 
+section.frontPage {
+  background: url("/assets/background.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 650px) {
+  section.frontPage {
+    background: none;
+  }
+}
+
 .carousel-open:checked + .carousel-item {
   position: static;
   opacity: 100;
@@ -17910,6 +17923,10 @@ video {
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #2b6cb0;
   /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.alid {
+  color: red;
 }
 
 @media (min-width: 640px) {
