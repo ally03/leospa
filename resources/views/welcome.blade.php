@@ -25,21 +25,21 @@
 
         });
     </script> -->
+
 </head>
 
-
 <body>
-
     <section class="frontPage">
         <header class="container mx-auto  px-12">
+            <!-- Navbar section start here !-->
             <div class="w-full">
-                <nav class="md:flex items-center  py-2 px-8 md:px-12 space-x-32">
+                <nav class="md:flex items-center  py-2  lg:px-12 space-x-32">
                     <div class="flex items-center justify-between ">
                         <div class="">
                             <a href=""><img src="/assets/logo.png" alt="logo"></a>
                         </div>
                         <div class="md:hidden">
-                            <button type="button" class="block text-gray-800 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
+                            <button type="button" id="nav-toggle" class="block text-gray-800 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
                                 <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                                     <path class="hidden" d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z" />
                                     <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
@@ -47,7 +47,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="flex flex-col md:flex-row hidden md:block -mx-2">
+                    <div class="flex flex-col bg-red-100 md:bg-transparent  md:flex-row hidden md:block -mx-2 " id="nav-content">
                         <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Home</a>
                         <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">About</a>
                         <a href="#" class="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Feature</a>
@@ -56,7 +56,7 @@
                     </div>
                 </nav>
             </div>
-
+            <!-- Navbar section end here !-->
 
             <!-- Banner section start -->
             <div class="flex" style="height:600px;">
@@ -74,8 +74,8 @@
                     </div>
                 </div>
             </div>
+            <!-- Banner section end -->
         </header>
-        <!-- Banner section end -->
     </section>
 
 
@@ -392,14 +392,134 @@
             </div>
         </div>
     </section>
-    <!-- Procedures section end -->
+    <!-- Blog section end -->
 
 
+    <section class="container mx-auto  pt-20 px-12 ">
 
+        <div class="p-8">
+            <h1 class=" text-4xl text-center ">Latest From Blog</h1>
+            <p class="text-center px-8 pt-8 ">To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+        </div>
+        <div class="flex ">
+            <div class="w-2/5 ">
+                <div class="flex md:w-full px-3 mb-6">
+                    <div class="w-1/4">
+                        <i class="fas fa-map-marked-alt text-2xl bg-red-400 flex items-center justify-center rounded-full h-12 w-12 text-white"></i>
+                    </div>
+                    <div class="w-3/4 text-sm text-gray-700 ">
+                        <p>848 E 28th ST, BROOKLYN </p>
+                        <p> NEW YORK, USA</p>
+                    </div>
+                </div>
+                <div class="flex  md:w-full px-3 mb-6">
+                    <div class="w-1/4  ">
+                        <i class="far fa-envelope text-2xl bg-red-400 flex items-center justify-center rounded-full h-12 w-12 text-white"></i>
+                    </div>
+                    <div class="w-3/4 text-sm text-gray-700 ">
+                        <p>848 E 28th ST, BROOKLYN </p>
+                        <p> NEW YORK, USA</p>
+                    </div>
+                </div>
+                <div class='flex md:w-full px-3 mb-6'>
+                    <div class="w-1/4 ">
+                        <i class="fas fa-mobile-alt text-2xl bg-red-400 flex items-center justify-center rounded-full h-12 w-12 text-white"></i>
+                    </div>
+                    <div class="w-3/4 text-sm text-gray-700 ">
+                        <p>848 E 28th ST, BROOKLYN </p>
+                        <p> NEW YORK, USA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sm:w-3/5 w-full ">
+                <form>
+                    <div class='w-full md:w-full px-3 mb-6'>
+                        <input class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500' id='grid-text-1' type='text' placeholder='Name' required>
+                    </div>
+                    <div class='w-full md:w-full px-3 mb-6 '>
+                        <input class='appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500' id='grid-text-1' type='text' placeholder='Enter email' required>
+                    </div>
+                    <div class='w-full md:w-full px-3 mb-6'>
+                        <textarea class="appearance-none block w-full bg-white text-gray-700 border border-gray-400 shadow-inner py-3 px-4 leading-tight focus:outline-none  focus:border-gray-500" name="body" placeholder='Type Your Comment' required></textarea>
+                    </div>
+                    <div class='w-full md:w-full px-3 mb-6 flex'>
+                        <button class="bg-red-400 font-bold text-white hover:text-black  py-4 px-8 rounded-full">
+                            Submit Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
+    </section>
 
+    <footer class=" mx-auto  pt-8">
+        <div class=" text-center mx-auto bg-red-100  py-16">
 
+            <div class="flex items-end justify-center py-4">
+                <a href=""><img src="/assets/logo.png" alt="logo"></a>
+            </div>
+            <div class="flex flex-col  md:block -mx-2 py-2">
+                <a href="#" class="text-gray-800 rounded  hover:text-red-500 hover:font-medium py-2 px-2 md:mx-2">Home</a>
+                <a href="#" class="text-gray-800 rounded  hover:text-red-500 hover:font-medium py-2 px-2 md:mx-2">About</a>
+                <a href="#" class="text-gray-800 rounded  hover:text-red-500 hover:font-medium py-2 px-2 md:mx-2">Feature</a>
+                <a href="#" class="text-gray-800 rounded  hover:text-red-500 hover:font-medium py-2 px-2 md:mx-2">service</a>
+                <a href="#" class="text-gray-800 rounded  hover:text-red-500 hover:font-medium py-2 px-2 md:mx-2">Contact</a>
+            </div>
+            <div class="  text-center   py-2 px-3 py-4">
+                <a href="/#" class="w-6 mx-1"><i class="fab fa-facebook hover:text-red-400"></i></a>
+                <a href="/#" class="w-6 mx-1"><i class="fab fa-instagram hover:text-red-400"></i></a>
+                <a href="/#" class="w-6 mx-1"><i class="fab fa-twitter  hover:text-red-400"></i></a>
+                <a href="/#" class="w-6 mx-1"><i class="fab fa-google-plus  hover:text-red-400"></i></a>
 
+            </div>
+            <div class="mt-2">© COPYRIGHT 2019 THEMEIES.COM. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+
+    <!-- <div class="shadow-lg flex flex-col-reverse sm:flex-row">
+        <div class="w-full bg-white p-4">
+            <div class="text-gray-700">
+                <h2>Login</h2>
+                <p class="mt-2 text-xs text-gray-base">Lorem ipsum dolor sit amet</p>
+            </div>
+
+            <form>
+                <div class="mt-3">
+                    <span class="flex bg-gray-300 items-center px-3">
+                        <i class="material-icons text-gray-400">person</i>
+                        <input class="bg-gray-300 p-2 w-full" type="text" placeholder="username">
+                    </span>
+
+                    <span class="flex bg-gray-300 items-center mt-2 px-3">
+                        <i class="material-icons text-gray-400">lock</i>
+                        <input class="bg-gray-300 p-2 w-full" type="text" placeholder="Password">
+                    </span>
+                </div>
+                <div class="flex justify-between items-center mt-4">
+                    <button class="bg-blue-500 hover:bg-blue-400 px-4 py-2 text-white">Login</button>
+                    <a href="#" class="text-xs underline-none text-blue-400 hover:text-blue-600">Forgot password?</a>
+                </div>
+            </form>
+
+        </div>
+        <div class="w-full bg-blue-500 p-4 text-white text-center flex flex-col justify-center ">
+
+            <h4>Sign up Now</h4>
+            <p class="text-sm mt-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                eget </p>
+            <button class="bg-blue-700 mx-auto hover:bg-blue-600 mt-4 text-white text-sm px-4 py-2 w-3/5">
+                Register
+            </button>
+
+        </div>
+    </div> -->
+    <script>
+        //Javascript to toggle the menu
+        document.getElementById('nav-toggle').onclick = function() {
+            document.getElementById("nav-content").classList.toggle("hidden");
+        }
+    </script>
 
 
 
