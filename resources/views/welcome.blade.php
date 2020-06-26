@@ -101,17 +101,33 @@
 
 
     <div class="flex flex-row flex-wrap -mx-10">
-        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4">
-            <img class="w-full" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4 hover:bg-red-500 body-treatment">
+            <img class="w-full treatment-image" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+            <div class="treatment-icon transition ease-linear opacity-0 absolute ">
+                <img class="text-white" src="/assets/1.png">
+                <p class=" text-white ">Body Treatment</p>
+            </div>
         </div>
-        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4">
-            <img class="w-full" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4 hover:bg-red-500 body-treatment">
+            <img class="w-full treatment-image" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+            <div class="treatment-icon transition self-center ease-linear opacity-0 absolute ">
+                <img class="text-white" src="/assets/1.png">
+                <p class=" text-white ">Body Treatment</p>
+            </div>
         </div>
-        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4">
-            <img class="w-full" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4 hover:bg-red-500 body-treatment">
+            <img class="w-full treatment-image" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+            <div class="treatment-icon transition ease-linear opacity-0 absolute ">
+                <img class="text-white" src="/assets/1.png">
+                <p class=" text-white ">Body Treatment</p>
+            </div>
         </div>
-        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4">
-            <img class="w-full" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+        <div class="flex flex-col justify-center items-center max-w-sm mx-auto my-4 hover:bg-red-500 body-treatment">
+            <img class="w-full treatment-image" src="https://dummyimage.com/370x450/#f1f1f1/525252.png">
+            <div class="treatment-icon transition ease-linear opacity-0 absolute ">
+                <img class="text-white" src="/assets/1.png">
+                <p class=" text-white ">Body Treatment</p>
+            </div>
         </div>
     </div>
 
@@ -123,7 +139,7 @@
                 <h1 class=" text-4xl text-center ">Popular Procedures.</h1>
                 <p class="text-center px-8 pt-8 "> To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
             </div>
-            <div class="flex flex-wrap -m-3 ">
+            <div class="flex flex-wrap p-8 ">
                 <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 ">
                     <div class="bg-white  overflow-hidden flex-1 flex flex-col border border-gray-300 ">
                         <img class="p-4" src="/assets/1(1).jpg" alt="Sunset in the mountains">
@@ -174,43 +190,67 @@
 
     <!-- Testimonial section start -->
     <section>
-        <div class="bg-white font-sans leading-normal tracking-normal">
-            <div class="carousel relative shadow-2xl bg-white">
+        <div class="bg-red-100 font-sans leading-normal tracking-normal py-12">
+            <div class="carousel relative ">
                 <div class="carousel-inner relative overflow-hidden w-full">
                     <!--Slide 1-->
-                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden checked="checked">
+                    <div class="carousel-item absolute opacity-0">
+                        <div class="max-w-4xl px-6 text-center mx-auto ">
+                            <div class="flex  justify-center py-10">
+                                <img src="/assets/quote.png">
+                            </div>
+                            <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+                            <div class="py-20 flex  justify-center">
+                                <img class="rounded-full mr-4" src="/assets/client-1.png">
+                            </div>
+                        </div>
                     </div>
                     <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
                     <label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
                     <!--Slide 2-->
-                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden>
+                    <div class="carousel-item absolute opacity-0">
+                        <div class="max-w-4xl px-6 text-center mx-auto ">
+                            <div class="flex  justify-center py-10">
+                                <img src="/assets/quote.png">
+                            </div>
+                            <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+                            <div class="py-20 flex  justify-center">
+                                <img class="rounded-full mr-4" src="/assets/client-1.png">
+                            </div>
+                        </div>
                     </div>
                     <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
                     <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
                     <!--Slide 3-->
-                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                    <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                        <img class="p-4" src="/assets/testimonal.png" alt="Sunset in the mountains">
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden>
+                    <div class="carousel-item absolute opacity-0">
+                        <div class="max-w-4xl px-6 text-center mx-auto ">
+                            <div class="flex  justify-center py-10">
+                                <img src="/assets/quote.png">
+                            </div>
+                            <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+                            <div class="py-20 flex  justify-center">
+                                <img class="rounded-full mr-4" src="/assets/client-1.png">
+                            </div>
+                        </div>
                     </div>
                     <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
                     <label for="carousel-1" class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
 
                     <!-- Add additional indicators for each slide-->
-                    <ol class="carousel-indicators ">
+                    <ol class="carousel-indicators">
                         <li class="inline-block mr-3">
-                            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                            <label for="carousel-1" class="carousel-bullet cursor-pointer block text-4xl text-red-500">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                            <label for="carousel-2" class="carousel-bullet cursor-pointer block text-4xl text-red-500">•</label>
                         </li>
                         <li class="inline-block mr-3">
-                            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                            <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-red-500">•</label>
                         </li>
                     </ol>
                 </div>
@@ -231,11 +271,11 @@
                     <div class="">
                         <img class="w-full" src="https://dummyimage.com/300x400/8a8a8a/525252.png">
                     </div>
-                    <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg  overflow-hidden">
+                    <div class="w-56 md:w-64 bg-white -mt-10 shadow-lg  overflow-hidden hover-trigger ">
                         <div class="py-2 text-center font-bold uppercase tracking-wide text-gray-800">Joseph Austin</div>
                         <h1 class=" text-center py-2 px-3">Thai massage</h1>
 
-                        <div class="flex justify-between text-center   py-2 px-3 ">
+                        <div class="flex justify-between text-center hover-target py-2 px-3 ">
                             <i class="fab fa-facebook text-3xl	"></i>
                             <i class="fab fa-instagram text-3xl	"></i>
                             <i class="fab fa-twitter text-3xl"></i>

@@ -17878,8 +17878,11 @@ video {
   transition-delay: 1000ms;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 section.frontPage {
@@ -17893,6 +17896,14 @@ section.frontPage {
   section.frontPage {
     background: none;
   }
+}
+
+.body-treatment:hover .treatment-image {
+  opacity: 0.3;
+}
+
+.body-treatment:hover .treatment-icon {
+  opacity: 1;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -17926,11 +17937,14 @@ section.frontPage {
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
   color: #2b6cb0;
-  /*Set to match the Tailwind colour you want the active one to be */
 }
 
-.alid {
-  color: red;
+.hover-trigger .hover-target {
+  display: none;
+}
+
+.hover-trigger:hover .hover-target {
+  display: block;
 }
 
 @media (min-width: 640px){
